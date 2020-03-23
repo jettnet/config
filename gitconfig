@@ -1,0 +1,19 @@
+[color]
+	ui = true
+[color "diff"]
+	old = red
+	new = blue
+[alias]
+	unstage = reset HEAD --
+	st = status
+	xl = log --graph --pretty=format:'%C(magenta)%h%Creset -%C(red)%d%Creset %s %C(dim green)(%cr) %C(cyan)<%an>%Creset' -10
+	xxl = log --graph --pretty=format:'%C(magenta)%h%Creset -%C(red)%d%Creset %s %C(dim green)(%cr) %C(cyan)<%an>%Creset'
+	d = difftool --dir-diff
+	list = diff --name-only
+	amend = commit -a --amend --no-edit
+	find = for-each-ref --contains
+	root = !pwd
+	evolve = !GIT_SEQUENCE_EDITOR=true git rebase -i --autosquash
+	fix = commit -a --fixup
+[pull]
+	rebase = true
