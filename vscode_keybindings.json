@@ -1,0 +1,99 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+        {
+                "key": "ctrl+shift+alt+j",
+                "command": "workbench.action.editor.nextChange",
+                "when": "editorTextFocus"
+        },
+        {
+                "key": "alt+f5",
+                "command": "-workbench.action.editor.nextChange",
+                "when": "editorTextFocus"
+        },
+        {
+                "key": "ctrl+shift+alt+k",
+                "command": "workbench.action.editor.previousChange",
+                "when": "editorTextFocus"
+        },
+        {
+                "key": "shift+alt+f5",
+                "command": "-workbench.action.editor.previousChange",
+                "when": "editorTextFocus"
+        },
+        {
+                "key": "ctrl+shift+meta+j",
+                "command": "editor.action.dirtydiff.next",
+                "when": "editorTextFocus"
+        },
+        {
+                "key": "alt+f3",
+                "command": "-editor.action.dirtydiff.next",
+                "when": "editorTextFocus"
+        },
+        {
+                "key": "ctrl+shift+meta+k",
+                "command": "editor.action.dirtydiff.previous",
+                "when": "editorTextFocus"
+        },
+        {
+                "key": "shift+alt+f3",
+                "command": "-editor.action.dirtydiff.previous",
+                "when": "editorTextFocus"
+        },
+        {
+                "key": "ctrl+alt+b",
+                "command": "bookmarks.toggle",
+                "when": "editorTextFocus"
+        },
+        {
+                "key": "ctrl+alt+k",
+                "command": "-bookmarks.toggle",
+                "when": "editorTextFocus"
+        },
+        {
+                "key": "ctrl+alt+k",
+                "command": "bookmarks.jumpToNext",
+                "when": "editorTextFocus"
+        },
+        {
+                "key": "ctrl+alt+l",
+                "command": "-bookmarks.jumpToNext",
+                "when": "editorTextFocus"
+        },
+        {
+                "key": "ctrl+alt+meta+j",
+                "command": "merge-conflict.next"
+        },
+        {
+                "key": "ctrl+alt+meta+k",
+                "command": "merge-conflict.previous"
+        },
+        {
+                "key": "ctrl+shift+s",
+                "command": "-workbench.action.files.saveAs"
+        },
+        {
+                "key": "ctrl+shift+s",
+                "command": "workbench.action.files.saveAll"
+        },
+        {
+                "key": "ctrl+shift+alt+j",
+                "command": "workbench.action.compareEditor.nextChange",
+                "when": "textCompareEditorVisible"
+        },
+        {
+                "key": "alt+f5",
+                "command": "-workbench.action.compareEditor.nextChange",
+                "when": "textCompareEditorVisible"
+        },
+        {
+                "key": "ctrl+shift+alt+k",
+                "command": "workbench.action.compareEditor.previousChange",
+                "when": "textCompareEditorVisible"
+        },
+        {
+                "key": "shift+alt+f5",
+                "command": "-workbench.action.compareEditor.previousChange",
+                "when": "textCompareEditorVisible"
+        }
+]
